@@ -1,0 +1,30 @@
+section {
+    display: flex;
+    align-items: center;
+    height: 120px;
+    background: beige;
+  }
+  
+  div {
+    height: 60px;
+    background: cyan;
+    margin: 5px;
+  }
+  
+  div:nth-child(3) {
+    align-self: auto;
+    background: pink;
+  }
+  div:nth-child(1) {
+    align-self: baseline;
+    background: rgb(161, 82, 95);
+  }
+  div:nth-child(2) {
+    align-self: stretch;
+    background: rgb(72, 106, 151);
+  }
+  div:nth-child(4) {
+    align-self: flex-end;
+    background: rgb(88, 209, 139);
+  }
+  

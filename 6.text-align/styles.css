@@ -1,0 +1,49 @@
+/* Textos en CSS */
+
+/* 
+    text-align: Es la propieda que nos permite alinear horizontalmente el contenido de un elemento de bloque 
+                siempre que el CONTENIDO NO TENGA ANCHO DECLARADAO
+    
+    
+    Acepta 4 valores:
+
+                text-align:left  => alinea el contenido a la izquierda 
+                text-align:right  => alinea el contenido a la derecha 
+                text-align:center  => alinea el contenido al centro 
+                text-align:justify  => alinea el contenido justificadamente, pero no se suele recomendar utilizar  
+
+*/
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;;
+}
+
+
+.left{
+    background-color: aqua;
+    text-align: left;
+}
+
+.right{
+    background-color: salmon;
+    text-align: right;
+}
+.center{
+    background-color: blueviolet;
+    text-align: center;
+}
+.justify{
+    background-color: coral;
+    text-align: justify;
+}

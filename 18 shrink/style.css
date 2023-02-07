@@ -1,0 +1,36 @@
+#container {
+    display: flex;
+    width: 500px;
+  }
+  
+  #container div {
+    flex-basis: 120px;
+    border: 3px solid rgba(0, 0, 0, 0.2);
+  }
+  
+  .box {
+    background-color: aquamarine;
+    flex-shrink: 1;
+  }
+  
+  .box1 {
+    background-color: blanchedalmond;
+    flex-shrink: 3;
+  }
+  .box2 {
+    background-color: darkorchid;
+    flex-shrink: 6;
+  }
+  .box3 {
+    background-color: burlywood;
+    flex-shrink: 9;
+  }
+  .box4 {
+    background-color: cornflowerblue;
+    flex-shrink: 12;
+  }
+  .box5 {
+    background-color: dimgray;
+    flex-shrink: 15;
+    align-self: flex-end;
+  }

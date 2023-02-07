@@ -1,0 +1,66 @@
+/* ELEMENTOS EN BLOQUE Y EN LÍNEA en CSS  */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    background: #588157;
+}
+
+.block-1,.block-2 {
+    background: #a3b18a;
+    color: #dad7cd;
+    padding: 40px;
+    margin-bottom: 20px;
+}
+
+h3.block-2{
+    font-size: 3rem;
+}
+
+h1.block-1{
+    text-align: center;
+}
+
+
+/* Como puedo convertir a un elemento en línea a uno de bloque  */
+
+.en-linea {
+    display: block;
+    /* Ahora puedo utilizar las propiedades del un elemento en bloque */
+    width: 350px;
+    height: 50px;
+    background: tomato;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid blueviolet;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.8rem;
+
+}
+
+
+.en-linea-1 {
+    display: inline-block;
+    /*  Ahora puedo utilizar las propiedades del un elemento en 
+        bloque pero que se mantengan como elementos de línea */
+    width: 300px;
+    height: 50px;
+    
+    background: lightslategray;
+    padding: 10px;
+    margin: 25px;
+    border: 5px solid lightgreen;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}

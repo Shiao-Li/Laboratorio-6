@@ -1,0 +1,73 @@
+/*  Position en CSS */
+
+/*
+Los posibles valores que le podemos dar son:
+
+    Sticky   => Es una mezcla de position relative y fixed. 
+                Con este tipo de posicionamiento los valores de top, bottom, right no sirven para mover el elemento
+                sino para indicarle en qué punto pasará a tener un comportamiento de posicionamiento fixed, hasta llegar 
+                a ese punto se comportará como si tuviera posionamiento, aunque si contará como posicionado si necesitaremos
+                colocar otro elemento respecto a él (absolute).  
+
+*/
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: snow;
+
+}
+
+
+img {
+    display: block;
+    width: 100%;
+    height: 70vh;
+}
+
+p{
+    text-align: justify;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.header {
+    text-align: center;
+    background-color: darkslategrey;
+
+    /* IMPORTANTE */
+
+    /* siempre debe tener un ancho (texto para hacer scroll) para que pueda funcionar el sticky */
+    height: 250px;
+
+    /* aquí ya no funciona el sticky */
+    /* overflow: hidden; */
+
+}
+
+.menu {
+    color: white;
+    font-size: 30px;
+    position: sticky;
+    top: 0px;
+}
+
+
+.article-title {
+    position: sticky;
+    top: 0px;
+    background-color: darkslategrey;
+    color: white;
+
+}

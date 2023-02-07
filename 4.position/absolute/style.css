@@ -1,0 +1,80 @@
+/*  Position en CSS */
+
+/*
+Los posibles valores que le podemos dar a position son:
+
+    Absolute => El elemento perderá sus medidas y su espaciado reservado. 
+                Si lo movemos usará el elemento padre posicionado como referencia. 
+                Si no tiene ninguno, usará el elemento HTML de referencia. 
+
+    https://i.ytimg.com/vi/F0ifZxhlTUI/maxresdefault.jpg
+
+    https://www.csssolid.com/images/csspositions/css-position-all.png
+
+    https://qph.cf2.quoracdn.net/main-qimg-59e39eff9ddceba27a8598a74edb835a-pjlq
+
+*/
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: aquamarine;
+
+}
+
+.titulo {
+    background-color: lightseagreen;
+    position: absolute;
+    left: 300px;
+    top: 25px;
+    
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+.box-1 {
+    
+    background-color: rgb(228, 159, 102);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+img{
+    width: 120px;
+    height: 100px;
+}
+
+
+
+.link-1 {
+    background-color: cornflowerblue;
+    width: 250px;
+    left: 50px;
+    bottom: 20px;
+    position: absolute;
+    /* con esto ya no es necesario tener un display: block; para dar un width y height */
+
+}
+
+.link-2 {
+    background-color: rgb(237, 212, 100);
+    width: 200px;
+    right: 50px;
+    bottom: 20px;
+    position: absolute;
+    text-align: center;
+}
+

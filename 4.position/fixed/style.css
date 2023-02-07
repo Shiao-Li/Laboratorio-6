@@ -1,0 +1,68 @@
+/*  Position en CSS */
+
+
+
+/*
+Los posibles valores que le podemos dar a position son:
+
+    Fixed  =>  El elemento perderá sus medidas y espacio reservado. 
+                Si lo movemos usará el elemento HTML de referencía y 
+                además se quedará fijo en esa posición aunque hagamos scroll.
+
+
+    t.ly/WkBe
+
+    https://www.csssolid.com/images/csspositions/css-position-all.png
+
+    https://desarrolladoresweb.org/wp-content/uploads/Posicionamieto-absoluto-CSS.jpg
+    
+    https://static-assets.codecademy.com/Courses/Learn-CSS/Display-Position/Fixed.gif
+
+*/
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body {
+    background-color: lightyellow;
+    font-size: 1.6rem;
+    padding-top: 120px;
+}
+
+.header {
+    background-color: teal;
+    width: auto;
+    height: 100px;
+    padding: 10px 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    margin: 30px;
+}
+
+.enlace {
+    width: 100px;
+    height: 100px;
+    background-color: limegreen;
+    border-radius: 50%;
+    color: white;
+    padding-top: 40px;
+    padding-left: 15px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}

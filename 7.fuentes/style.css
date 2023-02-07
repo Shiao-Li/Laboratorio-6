@@ -1,0 +1,147 @@
+/* Fuentes en CSS */
+
+/* 
+
+    Fuentes predeterminadas, son las fuentes que se consideran seguras ya que son genéricas y no 
+    establecen una familia tipográfica, si no un estilo de fuente.
+
+    * serif: Fuentes que tienen serifas (adornos en los caracteres)
+    * sans-serif: Fuentes sin serifas
+    * monospace: Fuentes que tienen el mismo espaciado entre todos sus caracteres.
+    * cursive: Fuentes que pretenden emular escritura a mano, con ligaduras y trazos fluidos
+    * fantasy: Fuentes que suelen ser decorativas
+    
+    Las fuentes desde un servidor remoto son fuentes que se encuentran en un servidor y que nosotros
+    descargamos para su uso, la más famosa es Google Fonts
+
+    https://fonts.google.com/
+
+    https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm?hl=Es
+
+
+
+Transformaciones de texto
+
+    Text-transform: Esta propiedad nos permite hacer transformaciones ESTÉTICAS en nuestro texto.
+
+    Admite los valores:
+        none: No se aplicará ninguna transformación.
+        uppercase: El texto se pondrá en mayúsculas
+        lowercase: El texto se pondrá en minúsculas
+        capitalize: Transforma la primera letra de cada palabra en mayúscula.
+    
+Adornos en el texto
+    
+    Text-decoration: Esta propiedad nos permite controlar la línea que podemos poner en los textos.
+        
+    Admite los valores:
+        none: Elimina cualquier línea.
+        underline: Coloca una linea bajo el texto.
+        overline: Coloca una linea sobre el texto.
+        line-through: Coloca una linea tachando el texto.
+
+Text-shadow: Funciona exáctamente igual que box-shadow, con la única diferencia de que no admite el valor inset ni la expansión de la sombra.
+    Los valores son: 
+        offsetX: desplazamiento horizontal.
+        offsetY: desplazamiento vertical
+        blur: desenfoque.
+        color: color, por defecto coge el del texto.
+
+Espaciado en fuentes y textos
+
+    letter-spacing: 
+        Establece la separación entre caracteres, se puede establecer en cualquier medida válida para CSS
+    word-spacing: 
+        Establece la separación entre palabras, se puede establecer en cualquier medida válida para CSS
+    line-height: 
+        Establece el alto de cada línea, se puede dar una medida concreta o se puede poner un número que 
+        se multipliará por el font size del texto al que se lo estemos aplicando.
+
+Orientación del texto.
+    writing-mode: Establece la dirección del texto
+
+
+
+*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: azure;
+    color: black;
+    font-family: sans-serif;
+    font-family: 'Itim', sans-serif;
+}
+
+
+
+.tituloprincial {
+    text-align: center;
+}
+
+article {
+    margin: 40px 20px;
+}
+
+.parrafo {
+    font-family: cursive;
+}
+
+
+.text {
+    font-weight: 400;
+}
+
+
+
+.text-1 {
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    color: coral;
+}
+
+
+.text-2 {
+    text-decoration: line-through;
+    text-align: right;
+    margin-bottom: 2rem;
+    color: brown;
+}
+
+a {
+    display: block;
+    margin-bottom: 2rem;
+    text-decoration: none;
+    color: violet;
+}
+
+
+.text-3 {
+    text-transform: uppercase;
+    text-shadow: 1px 0 1.5px navy;
+    margin-bottom: 2rem;
+    color: chartreuse;
+}
+
+
+
+.text-4 {
+    line-height: 50px;
+    margin-bottom: 2rem;
+    color: orangered;
+}
+
+
+.text-5 {
+    writing-mode: vertical-rl;
+    margin-bottom: 2rem;
+    color: blue;
+}

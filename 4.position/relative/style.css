@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: aquamarine;
+
+}
+
+
+header {
+    background-color: papayawhip;
+    text-align: center;
+}
+
+img{
+    width: 250px;
+    height: 100;
+}
+
+
+.logo {
+    display: inline-block;
+    background-color: teal;
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+
+}
+
+.navbar{
+    display: inline-block;
+    background-color: teal;
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 200px;
+}
+
+.background p{
+    background-color: lightblue;
+    color: initial;
+    text-align: center;
+    width: 900px;
+    margin-left: auto;
+    margin-top: 40px;
+    padding: 10px;
+}
+
+.background h1{
+    background-color: lightblue;
+    color: initial;
+    text-align: center;
+    width: 900px;
+    margin-left: auto;
+    margin-top: 40px;
+    padding: 10px;
+    position: relative;
+}
+
+.image{
+    position: relative;
+    bottom: 100px;
+    left: 0px;
+    
+}
+
