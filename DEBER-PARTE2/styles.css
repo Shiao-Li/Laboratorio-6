@@ -1,0 +1,189 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body,
+.page-container {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url("images/bg-desktop.svg");
+    border: none;
+    font-size: 1.6rem;
+    font-size: 62.5%;
+}
+
+body {
+    background-size: contain;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 25px;
+}
+
+.logo-image {
+    width: 50%;
+    max-width: 220px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    flex-grow: 1;
+    padding: 100px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.illustration {
+    width: 100%;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.paragraph {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    padding: 10px 0;
+}
+
+.button {
+    background-color: #fff;
+    padding: 10px;
+    width: 65%;
+    max-width: 200px;
+    border-radius: 100px;
+    margin: 20px 0;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+
+.footer {
+    width: 100%;
+    padding:  15px;
+    
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 1rem;
+}
+
+.social-icon-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    border: solid 1px #fff;
+    border-radius: 50%;
+    margin: 5px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.social-icon {
+    font-size: 2rem;
+}
+
+.attribution {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.8rem;
+    padding: 0.5rem;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: hsla(360, 100%, 100%, 0.5);
+    transition: 0.5s;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-grow: 1;
+    padding: 100px;
+}
+
+.image-container {
+    width: 55%;
+}
+
+.text-container {
+    align-items: flex-start;
+    text-align: left;
+    width: 40%;
+}
+
+.heading {
+    font-size: 3vw;
+    padding: 0 0 5%;
+}
+
+.paragraph {
+    font-size: 1.5vw;
+    padding: 2% 0;
+}
+
+.button {
+    text-align: center;
+    font-size: 1.5vw;
+    margin: 2% 0;
+}
+
+.footer {
+    width: 100%;
+}
+
+.social {
+    justify-content: flex-end;
+}
+
+.social-icon-box {
+    width: 2.5vw;
+    height: 2.5vw;
+}
+
+.social-icon {
+    font-size: 1.5vw;
+}
+
+.attribution {
+    font-size: 1vw;
+    text-align: center;
+}

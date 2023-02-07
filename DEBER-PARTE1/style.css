@@ -1,0 +1,92 @@
+
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+    
+}
+html{
+    font-family: 'Red Hat Display', sans-serif;
+}
+.main-block{
+    background: white;
+    width: 450px;
+    margin-left: 475px;
+    position: absolute;
+    border-radius: 30px;
+    align-content: center;
+    justify-content: center;  
+
+}
+.background{
+    position: absolute;
+}
+
+.top-class{
+    background: rgb(224, 232, 255);
+    height: 960px;
+}
+.image{
+    border-top-left-radius: 20px;
+}
+
+.order-summary p{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 300px;
+    color: hsl(224, 23%, 55%);
+}
+
+.order-summary h2{
+    display: flex;
+    justify-content: center;
+}
+
+.annual-plan{
+    display: flex;
+    justify-content: center;
+    background: rgb(243, 243, 243);
+    margin: 0px 65px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.annual-plan-text{
+    padding-left: 25px;
+    padding-right: 75px;
+}
+
+.change{
+    padding-top: 20px;
+    font-size: 16px;
+    color: hsl(245, 75%, 52%);
+}
+
+.annual-plan-text h4{
+    padding-bottom: 0px;
+
+}
+
+.button{
+    display: flex;
+    justify-content: center;   
+    background: hsl(245, 75%, 52%);
+    color: white;
+    font-size: 16px;
+    margin: 0px 65px;
+    border-radius: 15px;
+
+}
+
+.cancel{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-weight: 500;
+}
